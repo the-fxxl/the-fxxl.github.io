@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mederic Aimé - Online Seller</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, blue, red);
+            color: white;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        h1 {
+            margin: 0;
+        }
+        nav {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mederic Aimé - Online Seller</h1>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#products">Products</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my online store! I specialize in providing high-quality products with excellent customer service.</p>
+    </section>
+    <section id="products">
+        <h2>Products</h2>
+        <p>Check out my latest products below:</p>
+        <!-- Add your product listings here -->
+    </section>
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me with any questions or inquiries:</p>
+        <p>Email: your@email.com</p>
+        <p>Phone: +1234567890</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Mederic Aimé - Online Seller</p>
+    </footer>
+</body>
+</html>
